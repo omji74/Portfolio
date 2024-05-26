@@ -1,16 +1,17 @@
-
+import Home from './components/Home/Home'
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import SideMenu from './components/SideMenu/SideMenu';
-
-function App() {
+const App = () => {
   return (
     <div className="App">
+     
       <Navbar />
-      <SideMenu/>
+      <Home/>
+      <SideMenu />
       {/* Rest of your portfolio content */}
     </div>
   );
-}
+};
 
 export default App;
