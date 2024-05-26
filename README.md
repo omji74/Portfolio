@@ -1,1 +1,1 @@
-<h1>This is about me <a href="https://www.g.dev/omji74.com">Omji74</a></h1>
+<h1>This is about me <a href="https://g.dev/omji74">Omji74</a></h1>
