@@ -1,6 +1,11 @@
+
 body {
-  background-color: #f0f0f0; /* Light gray background */
-  font-family: 'Arial', sans-serif; /* Choose your preferred font */
-  text-align: center; /* Center the content initially */
-  margin: 0; /* Remove default body margins */
+  background-image: url("omi.jpg");
+  background-repeat: repeat; /* Ensure the pattern repeats */
+  background-attachment: fixed;
+  background-size: cover; /* Maintain pattern aspect ratio */
+  background-position: top left;
+  margin: 0;
+  font-family: sans-serif;
+  
 }

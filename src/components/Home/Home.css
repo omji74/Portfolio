@@ -4,6 +4,7 @@
   flex-direction: column;
   min-height: 100vh; /* Set minimum viewport height */
   font-family: sans-serif;
+  color: aliceblue;
 }
 
 .Home header {
@@ -26,6 +27,7 @@
 .text-container {
   flex: 1; /* Allow text section to grow or shrink */
   padding: 1rem;
+  
 }
 
 .image-container {
