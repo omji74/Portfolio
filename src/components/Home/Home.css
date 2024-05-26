@@ -1,0 +1,44 @@
+/* Basic styles for Home.js */
+.Home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Set minimum viewport height */
+  font-family: sans-serif;
+}
+
+.Home header {
+  /* Styles for header section */
+}
+
+.Home main {
+  flex: 1; /* Take up remaining space */
+  padding: 2rem;
+  display: flex; /* Arrange text and image sections side-by-side */
+}
+
+.content-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow sections to wrap if needed */
+  /* Adjust width as needed based on screen size and desired layout */
+  width: 80%;
+}
+
+.text-container {
+  flex: 1; /* Allow text section to grow or shrink */
+  padding: 1rem;
+}
+
+.image-container {
+  flex: 1; /* Allow image section to grow or shrink */
+  text-align: center; /* Center image horizontally */
+  margin-left: 2rem; /* Add spacing between text and image */
+}
+
+.image-container img {
+  width: 400px; /* Increase image size (adjust as needed) */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Add more styles for other sections and elements as needed */
