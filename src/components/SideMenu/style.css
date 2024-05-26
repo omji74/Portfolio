@@ -1,0 +1,28 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+.side-menu {
+    position: fixed;
+    top: 50%;
+    left:0;
+    /* right: 90%; */
+    transform: translateY(-50%);
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0 0 0 10px;
+  }
+  
+  .side-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .side-menu li {
+    margin: 0.5rem 0;
+  }
+  
+  .side-menu a {
+    text-decoration: none;
+    color: #fff;
+  }
