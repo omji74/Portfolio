@@ -12,28 +12,147 @@ function Home() {
       <main>
         <section className="content-section">
           <div className="text-container">
-          <TypeAnimation
-        sequence={[
-          `Welcome to My Prortfolio !\nI'm a WebDeveloper & Android Dev \nand a Competitve Programmer.`,
-          1000,
-          "", 
-        ]}
-        speed={50} // Typing speed in milliseconds
-        style={{ whiteSpace: 'pre-line', fontSize: '2em' }}
-        repeat={Infinity} // Repeat animation indefinitely
-      />
+      
+        <TypeAnimation
+              sequence={[
+                `Welcome to My Portfolio!`,
+                1000,
+                `I'm a Web Developer & Android Dev`,
+                1000,
+                `& a Competitive Programmer.`,
+                1000,
+                '',
+              ]}
+              speed={50} // Typing speed in milliseconds
+              style={{ whiteSpace: 'pre-line', fontSize: '2em' }}
+              repeat={Infinity} // Repeat animation indefinitely
+            /><h2>Skills</h2>
+             
+           <div className='skill' style={{display: 'flex'}}>
+<table>
+  <tr>
+   
+  <td align="center" width="160">
+        <img src="https://skillicons.dev/icons?i=c" width="80" height="80" alt="C" />
+        C
+    </td>
+    <td align="center" width="160">
+        <img src="https://skillicons.dev/icons?i=cpp" alt="icon" width="80" height="80" />
+        C++
+    </td>
+    <td align="center" width="160">
+        <img src="https://skillicons.dev/icons?i=python" alt="icon" width="80" height="80" />
+        Python
+    </td>
+    <td align="center" width="160">
+        <img src="https://skillicons.dev/icons?i=java" alt="icon" width="80" height="80" />
+        Java
+    </td>
+    <td align="center" width="160">
+        <img src="https://skillicons.dev/icons?i=kotlin" alt="icon" width="80" height="80" />
+        Kotlin
+    </td>
+    <td align="center" width="160">
+    <img src="https://skillicons.dev/icons?i=github" alt="icon" width="80" height="80" />
+        Github
+    </td>
+    <td align="center" width="160">
+    <img src="https://skillicons.dev/icons?i=git" alt="icon" width="80" height="80" />
+        Git
+    </td>
+    </tr>
+    <tr>
+   
+   <td align="center"  width="160">
+       <img src="https://skillicons.dev/icons?i=html" width="80" height="80" alt="HTML5" />
+       HTML5
+   </td>
+   <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=css" width="80" height="80" alt="css" />
+       CSS
+   </td>
+   <td align="center"  width="160">
+       <img src="https://skillicons.dev/icons?i=bootstrap" width="80" height="80" alt="bootstrap" />
+       Bootstrap
+   </td>
+   <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=js" alt="icon" width="80" height="80" />
+       JavaScript
+   </td>
+   <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=tailwind" width="80" height="80" alt="tailwind" />
+       Tailwind
+   </td>
+   <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=jquery" width="80" height="80" alt="jQuery" />
+       jQuery
+   </td>
+   <td align="center" width="160">
+        <img src="https://skillicons.dev/icons?i=ts" alt="icon" width="80" height="80" />
+        Type Script
+    </td>
      
+   </tr>
+   <tr>
+ 
+   
+     <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=mongodb" width="80" height="80" alt="MongoDB" />
+       MongoDB
+   </td>
+     <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=express" width="80" height="80" alt="WordPress" />
+       Express
+   </td>
+   <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=react" alt="icon" width="80" height="80" />
+       React
+   </td>
+   <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=nodejs" width="80" height="80" alt="Nodejs" />
+       Nodejs
+     </td>
+   
+     </tr> 
+    {/* <tr>
+    <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=vscode" width="80" height="80" alt="Nodejs" />
+       Vs Code
+     </td>
+     <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=androidstudio" width="80" height="80" alt="Nodejs" />
+       Android Studio
+     </td>
+     <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=atom" width="80" height="80" alt="Nodejs" />
+       Atom
+     </td>
+     <td align="center" width="160">
+       <img src="https://skillicons.dev/icons?i=sublime" width="80" height="80" alt="Nodejs" />
+       Sublime
+     </td>
+    </tr> */}
+ 
+</table>
+  <table>
+  
+ 
+
+</table>
+</div>
+
+
+             
+           
          
           </div>
+          
           
           <div className="image-container">
         <img src="https://cdn.hackernoon.com/images/person-studing-the-cosmos-e7k88hfewrqwwga4afre72tj.png" alt="Your Profile Picture" />
 
           </div>
-        </section>
-     
-      </main>
-      <div className='text-container-2'>
+           <div className='text-container-2'>
         <h2 className='about'>About</h2>
         <p>
         I. Introduction: Aspiring Tech Enthusiast
@@ -55,15 +174,12 @@ My passion lies in exploring the frontiers of computer science, particularly in 
 IV. Future Aspirations: A Lifelong Learner
 As I approach my final year, I'm actively seeking internship opportunities that will allow me to apply my acquired knowledge to real-world projects, gain practical experience in a professional setting, and contribute to a team. I'm also considering pursuing a Master's degree to delve deeper into a specific area of computer science that aligns with my interests.
         </p>
-        <h2>Skills</h2>
-            <ul className="skills-list">
-              <li>Programming Languages: C, C++, Kotlin, Python</li>
-              <li>Databases: MySQL, MongoDB</li>
-              <li>Frameworks: React, Angular</li>
-              <li>Operating Systems: Linux (Fidora), Windows</li>
-              <li>IDEs: Android Studio, Visual Studio Code, PyCharm, IntelliJ IDEA (and more)</li>
-            </ul>
+       
       </div>
+        </section>
+     
+      </main>
+     
       
     </div>
   );

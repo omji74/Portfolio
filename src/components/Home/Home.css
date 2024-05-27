@@ -29,6 +29,14 @@
   padding: 1rem;
   
 }
+.skill{
+  color: aqua;
+  padding: 2rem;
+}
+.about {
+  color: aqua;
+  
+}
 .text-container-2{
   flex:-1;
   padding:10rem;
