@@ -7,6 +7,34 @@
   color: aliceblue;
 }
 
+
+.about-section {
+  display: flex;
+  background: linear-gradient(to right, #f2994a 0%, #f2c94c 100%); /* Fantastic gradient background */
+  padding: 20px;
+  position: relative; /* Needed for pseudo-element */
+}
+
+.about-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -100px; /* Adjust width of the parallelogram effect */
+  z-index: -1; /* Place behind the content */
+  background-color: inherit; /* Inherit gradient from parent */
+  transform: skewX(-20deg); /* Create parallelogram shape */
+}
+
+.about-content-container {
+  flex: 1; /* Content takes up remaining space */
+}
+
+.about-image-container {
+  /* Style your image container here */
+}
+
 .Home header {
   /* Styles for header section */
 }
