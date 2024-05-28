@@ -21,7 +21,7 @@ const Navbar = () => {
           <a href="https://icpc.global/ICPCID/6ETECHHZJHI8" className="nav-link">Achivements</a>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link">Contact</a>
+          <a href="https://api.whatsapp.com/send/?phone=8057417617&text&type=phone_number&app_absent=0" className="nav-link">Contact</a>
         </li>
       </ul>
     </nav>
