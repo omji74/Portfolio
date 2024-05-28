@@ -17,7 +17,7 @@ const SideMenu = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.youtube.com/channel/UCx_b_T_j7_o0rV0mQ8q8kng" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/channel/UCI2fdM7xiO4K_Cs9E439C3Q" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-youtube"></i> 
           </a>
         </li>
