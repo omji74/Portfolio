@@ -1,11 +1,21 @@
-
 body {
   background-image: url("omi.jpg");
-  background-repeat: repeat; /* Ensure the pattern repeats */
+  background-repeat: repeat;
   background-attachment: fixed;
-  background-size: cover; /* Maintain pattern aspect ratio */
-  background-position: top left;
   margin: 0;
   font-family: sans-serif;
-  
+}
+
+/* For screens wider than 768px (e.g., desktops) */
+@media (min-width: 768px) {
+  body {
+    background-size: cover; /* Maintain aspect ratio on larger screens */
+  }
+}
+
+/* For smaller screens (e.g., tablets, phones) */
+@media (max-width: 767px) {
+  body {
+    background-size: contain; /* Prevent image from overflowing on smaller screens */
+  }
 }

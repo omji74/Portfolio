@@ -15,13 +15,13 @@ const Navbar = () => {
           <a href="#" className="nav-link">Project</a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">Profile</a>
+          <a href="https://linktr.ee/omji74" className="nav-link">Profile</a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">Achivements</a>
+          <a href="https://icpc.global/ICPCID/6ETECHHZJHI8" className="nav-link">Achivements</a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">Contact</a>
+          <a href="/" className="nav-link">Contact</a>
         </li>
       </ul>
     </nav>

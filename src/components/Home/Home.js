@@ -12,6 +12,7 @@ function Home() {
       <main>
         <section className="content-section">
           <div className="text-container">
+            <h1> Hii EveryOne &hearts;</h1>
       
         <TypeAnimation
               sequence={[
@@ -19,7 +20,7 @@ function Home() {
                 1000,
                 `I'm a Web Developer & Android Dev`,
                 1000,
-                `& a Competitive Programmer.`,
+                `&  Competitive Programmer.`,
                 1000,
                 '',
               ]}
@@ -149,22 +150,23 @@ function Home() {
           
           
           <div className="image-container">
-        <img src="https://cdn.hackernoon.com/images/person-studing-the-cosmos-e7k88hfewrqwwga4afre72tj.png" alt="Your Profile Picture" />
+        <img src="https://i.ibb.co/Kj36D3r/IMG-20231118-214651-removebg-preview.jpg" alt="Your Profile Picture" />
 
           </div>
           <div className="about-section">
             <h2>About</h2>
             <p>
-              I. Introduction: Aspiring Tech Enthusiast
-              <br />
-              I'm currently a pre-final year undergraduate student, passionately pursuing a Bachelor of Technology (B.Tech) degree in Computer Science Engineering (CSE). My journey into this field began with a deep fascination for technology and its potential to solve problems and shape the future. As I delve deeper into the world of algorithms, data structures, and software development, my enthusiasm continues to grow.
+              I'm a passionate tech enthusiast currently pursuing a BTech in Computer Science and Engineering (3rd year) at NITRA Technical Campus Ghaziabad. Driven by a thirst for knowledge and a desire to make a mark in the ever-evolving tech landscape, I'm constantly seeking opportunities to learn, grow, and contribute.
+              {/* I. Introduction: Aspiring Tech Enthusiast
+              <br /> */}
+              {/* I'm currently a pre-final year undergraduate student, passionately pursuing a Bachelor of Technology (B.Tech) degree in Computer Science Engineering (CSE). My journey into this field began with a deep fascination for technology and its potential to solve problems and shape the future. As I delve deeper into the world of algorithms, data structures, and software development, my enthusiasm continues to grow.
 
               
             
               <br />
-              The B.Tech CSE curriculum has been instrumental in providing me with a strong foundation in the core principles of computer science. I've gained a comprehensive understanding of programming languages like C, C++, Java, and Python, along with the ability to design and analyze algorithms. Courses on computer architecture, operating systems, databases, and web development have further broadened my knowledge and equipped me with the skills to build robust software systems.
+              The B.Tech CSE curriculum has been instrumental in providing me with a strong foundation in the core principles of computer science. I've gained a comprehensive understanding of programming languages like C, C++, Java, and Python, along with the ability to design and analyze algorithms. Courses on computer architecture, operating systems, databases, and web development have further broadened my knowledge and equipped me with the skills to build robust software systems. */}
 
-              <br />
+              {/* <br />
               <br />
 
               Beyond the classroom, I've actively participated in coding competitions and hackathons. These experiences have challenged me to think critically, apply theoretical knowledge to practical problems, and collaborate effectively with other programmers. Working on personal projects has also been a rewarding way to hone my skills, experiment with new technologies, and explore different areas of computer science that interest me.
@@ -189,9 +191,35 @@ function Home() {
               <br />
 
               IV. Future Aspirations: A Lifelong Learner
-              <br />
+              <br /> */}
               As I approach my final year, I'm actively seeking internship opportunities that will allow me to apply my acquired knowledge to real-world projects, gain practical experience in a professional setting, and contribute to a team. I'm also considering pursuing a Master's degree to delve deeper into a specific area of computer science that aligns with my interests.
             </p>
+            </div>
+            <div className="about-section">
+            <h2>Project</h2>
+           <div>
+           <h4 className='project'>
+              <a href='https://feedback-app-seven-beta.vercel.app/'>1. FeedBack App </a>
+              
+            </h4>
+            <p>
+              Using CRUD Operation User Can give Feedback it is Totally using Frontend Technology and use React Frame Work to develope it  You can Edit your FeedBack as well , Also calculate average feedback rating and last is not least user can delete feedback,and read about more please check my <a href='https://github.com/omji74/FEEDBACK_APP'> GitHub Repo 
+              </a>
+            </p>
+           </div>
+           <div>
+           <h4 className='project'>
+              <a href='https://yelp-camp-lovat.vercel.app/campgrounds'>1. Bloging App </a>
+              
+            </h4>
+            <p>
+            Created a web application using the MERN stack (MongoDB, Express.js,
+React.js, Node.js)
+- Implemented user authentication and authorization features.
+- Utilized MongoDB to store and manage Campgrounds data. <a href='https://github.com/omji74/Yelp_Camp'> GitHub Repo 
+              </a>
+            </p>
+           </div>
             </div>
         </section>
      
