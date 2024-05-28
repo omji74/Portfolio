@@ -154,7 +154,7 @@ function Home() {
 
           </div>
           <div className="about-section">
-            <h2>About</h2>
+           <a href='/'> <h2>About</h2></a>
             <p>
               I'm a passionate tech enthusiast currently pursuing a BTech in Computer Science and Engineering (3rd year) at NITRA Technical Campus Ghaziabad. Driven by a thirst for knowledge and a desire to make a mark in the ever-evolving tech landscape, I'm constantly seeking opportunities to learn, grow, and contribute.
               {/* I. Introduction: Aspiring Tech Enthusiast
@@ -196,7 +196,7 @@ function Home() {
             </p>
             </div>
             <div className="about-section">
-            <h2>Project</h2>
+          <a href='/'>  <h2>Project</h2></a>
            <div>
            <h4 className='project'>
               <a href='https://feedback-app-seven-beta.vercel.app/'>1. FeedBack App </a>
