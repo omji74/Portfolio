@@ -12,7 +12,7 @@ function Home() {
       <main>
         <section className="content-section">
           <div className="text-container">
-            <h1> Hii EveryOne &hearts;</h1>
+            <h1> Hi EveryOne &hearts;</h1>
       
         <TypeAnimation
               sequence={[
