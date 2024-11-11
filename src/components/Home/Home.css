@@ -135,6 +135,20 @@ body {
   border-radius: 50%;
   object-fit: cover;
 }
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.lottie-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
 
 /* Add more styles for other sections and
 */
